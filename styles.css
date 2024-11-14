@@ -1,0 +1,57 @@
+/* Basic styling for a centered counter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+}
+
+.counter-container {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#counter {
+    font-size: 2.5em;
+    margin: 1em 0;
+    color: #4CAF50;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C;
+}
