@@ -175,7 +175,7 @@ function endQuiz() {
     if (percentage > 50) {
         const nextLevelContainer = document.getElementById('next-level-container');
         const nextLevelLink = document.getElementById('next-level-link');
-        const link = 'https://waecmathsuccess.github.io/mathlevel3/';
+        const link = 'https://mathquiz101.github.io/mathquiz4/';
         
         nextLevelLink.href = link;
         nextLevelLink.textContent = link;
