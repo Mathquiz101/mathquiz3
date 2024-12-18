@@ -187,13 +187,6 @@ button:hover {
     text-align: center;
 }
 
-.wave-logo,
-.gtbank-logo {
-    width: 100px;
-    height: auto;
-    margin: 10px 0;
-}
-
 .donation-method p {
     font-size: 1rem;
     color: #333;
