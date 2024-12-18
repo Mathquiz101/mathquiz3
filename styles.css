@@ -213,3 +213,23 @@ button:hover {
         width: 80px;
     }
 }
+.return-home-btn {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    padding: 12px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.return-home-btn:hover {
+    background-color: #1557b0;
+}
